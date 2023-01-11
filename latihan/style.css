@@ -1,0 +1,42 @@
+div{
+  background-color: bisque;
+  color: #275480;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Century Gothic;
+  font-style: italic;
+  font-size: small;
+  text-align: center;
+  border-radius: 20px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  transition: all ease-in-out 0.2s;
+}
+/* id beda beda kalau class boleh sama */
+#ibukota{
+  width: 150px;
+  height: 150px;
+}
+.bantuan{
+  color: rgb(45, 118, 21);
+  font-style: normal;
+}
+/* odd kalau ganjil even kalau genap */
+div:nth-child(even){
+  background-color: cadetblue;
+  color: azure;
+}
+/* pakai event property untuk mengubah bentuk ketika kursor diarahkan */
+div:hover{
+  background-color: #bcbcbc;
+  font-size: medium;
+  color: black;
+  margin-right: 12px;
+  width: 120px;
+}
+
+/* 
+bintang digunakan untuk selector semuanya*{
+  display: none;
+} */
